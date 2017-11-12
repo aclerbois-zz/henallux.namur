@@ -70,7 +70,7 @@ Compilé votre projet pour s'assurer que tous fonctionne correctement.
 
 
 
-## Etape 2 : Création du modèle
+## Etape 2 : Création du modèle et utilisation d'Entity Framework Code First
 
 ## Etape 3 : Afficher une page d'accueil, une page pour lister les produits et une page de détails
 
