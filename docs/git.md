@@ -1,4 +1,4 @@
-# GIT - Information additionnel 
+# GIT - Information additionnel le
 
 Contenu additionnel pour GIT
 
@@ -21,7 +21,7 @@ git config --global core.editor "path to VS Code"
 
 ## Répository
 
-### Créer une nouveau repository
+### Créer un nouveau repository
 
 ```bash
 git init
@@ -65,7 +65,7 @@ git add readme.md
 git add readme.md
 ```
 
-### Ajouter toutes les moficiations et fichiers supprimé
+### Ajouter toutes les modifications et fichier supprimé
 
 ```bash
 git add .
@@ -81,7 +81,7 @@ git commit -m "Avec un petit message c'est toujours mieux"
 
 ### Récupérer les dernières modifications
 
-Tirer les dernières modifications de la branche courrante
+Tirer les dernières modifications de la branche courante
 
 ```bash
 git pull
@@ -121,18 +121,18 @@ git help log
 
 Dans le cadre d'une utilisation du **GitFlow**, toutes les branches sont écrites en minuscule. 
 
-Il existe deux branche qui resteront en vie tout au long du développement : 
+Il existe deux branches qui resteront en vie tout au long du développement : 
 
-- master : chaque commit sur cette branche réprensent une version "finie" de l'application
-- develop : Cette branche represente le développement, elle doit être stable.
+- master : chaque commit sur cette branche représente une version "finie" de l'application
+- develop : Cette branche représente le développement, elle doit être stable.
 
-Il existe des branches annexes qui vont permettent des travailler sur le produit que vous souhaiter développer. 
+Il existe des branches annexes qui vont permettant des travailler sur le produit que vous souhaiter développer. 
 
 ##### Features
 
 Les branches features sont des branches de développement de fonctionnalité.
 
-Elles sont préfixées par feature/. Celle permet, pour cette logiciel, de faire des vues triées par feature.
+Elles sont préfixées par feature/. Ce qui permet à certains logiciels  d'afficher un vue triée par feature.
 
 ##### Release
 
@@ -180,7 +180,7 @@ git branch -d "ma-branche-a-supprimer"
  git checkout --track "remote/nouvelle-branche"
 ```
 
-Si vous ne le faite pas, mais que vous tentez de faire un push, GIT va vous informer qu'il ne peut pas le faire et va vous donner la command à executer pour cela.
+Si vous ne le faite pas, mais que vous tentez de faire un push, GIT va vous informer qu'il ne peut pas le faire et va vous donner la commande à exécuter pour cela.
 
 ## Merge une branche vers une autre. 
 
