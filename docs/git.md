@@ -1,4 +1,4 @@
-# GIT - Information additionnel le
+# GIT - Information additionnelle
 
 Contenu additionnel pour GIT
 
