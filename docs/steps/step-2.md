@@ -2,11 +2,38 @@
 
 A partir de Visual Studio, ajoutons deux classes dans le dossier Models : 
 
-* Style
+* Evaluation
 * Recipe
 
+```CSharp
+namespace MICCookBook.SDK.Models
+{
+    public class Evaluation
+    {
+        public int Id { get; set; }
+        public int Rating { get; set; }
+        public string Comment { get; set; }
+    }
+}
+```
 
+```CSharp
+using Newtonsoft.Json;
 
+namespace MICCookBook.SDK.Models
+{
+    public class Recipe
+    {
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public string Picture { get; set; }
+
+        [JsonIgnore]
+        public string PictureUrl => "http://mic-cookbook.azurewebsites.net" + Picture;
+    }
+}
+```
 
 ---
 
