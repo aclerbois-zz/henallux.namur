@@ -98,7 +98,7 @@ Lorsque vous avez ajouté / modifié / supprimé dans colonnes dans une table ou
 > La syntaxe est Add-Migration [Nom de la migration]
 
 ```Console
-Add-Migrations AddProductsTable
+Add-Migration AddProductsTable
 ```
 
 ### Mettre à jour la base de données
